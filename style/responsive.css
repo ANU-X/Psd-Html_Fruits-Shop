@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+    .nav_bar{
+        display: block;
+    }
+.nav_ul li a {
+  font-size:medium;
+}    
+  .toggle-btn {
+    display: none;
+  }
+  .about_fruite img {
+    width: 500px;
+    height: auto;
+  }
+  .card_one img{
+  width: 600px;
+}
+  #fresh_fruit {
+    grid-template-columns: repeat(2, 1fr);
+  }
+    .style_hr hr {
+  width: 16rem;
+  margin-left: 1rem;
+}
+.crousel_img{
+    width: 12rem;
+  height: 12rem;
+    margin: auto 8rem;
+}
+.form_div {
+  max-width: 500px;
+}
+.form_div textarea {
+  width: 520px;
+
+}
+.map{
+  width: 600px;
+  height: 500px;
+}
+
+.fotter_f{
+  flex-direction: row;
+  gap: 10rem;
+  margin: 0 auto;
+}
+.call_location{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+}
+/* ---------------------------------- */
+@media (min-width: 992px) {
+
+.card_one img{
+  width: 800px;
+}
+  #fresh_fruit {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container_one {
+    flex-direction: row;
+  }
+  .about_fruite img {
+    position: relative;
+    margin-left: 5rem;
+    margin-right: -5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 600px;
+    height: auto;
+  }
+  .crousel_img{
+    width: 14rem;
+  height: 14rem;
+    margin: auto 10rem;
+}
+.request_c hr {
+  display: block;
+  width: 20rem;
+  margin-right: 1rem;
+}
+.contract_map{
+    flex-direction: row;
+    gap: 8rem;
+}
+
+}
